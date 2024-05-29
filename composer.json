@@ -1,0 +1,20 @@
+{
+    "name": "k-flynns/steganograph",
+    "description": "A library for hide data in PNG images.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KFlynns\\Steganograph\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erik Calov",
+            "email": "erik.calov@quokkabyte.org"
+        }
+    ],
+    "require": {
+      "ext-gd": "*"
+    }
+}
